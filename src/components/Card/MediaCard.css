@@ -1,0 +1,50 @@
+.media-card {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    padding-bottom: 15px;
+    margin: 25px 0;
+    background-color: #282c34;
+    border-radius: 10px;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .media-card:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  @media (max-width: 550px) {
+    .media-card {
+      width: 70%;
+    }
+  }
+  
+  .media-image {
+    border-radius: 10px 10px 0 0;
+    height: 350px;
+  }
+  
+  .media-title {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 0;
+  }
+
+  .desc{
+    font-size: 13px;
+    padding: 0 10px 20px 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: noWrap;
+  }
+  
+  .release-date {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 5px;
+    font-size: 13px;
+    text-transform: capitalize;
+  }

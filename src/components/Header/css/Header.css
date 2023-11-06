@@ -1,0 +1,43 @@
+/* CSS for the navigation menu */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b0444;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #cac7ff;
+    font-weight: bold;
+    float: right;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(3, 5, 18, 0.8),rgba(32, 4, 43, 0.9)), url('https://images2.minutemediacdn.com/image/upload/c_crop,w_2127,h_1196,x_0,y_117/c_fill,w_2160,ar_16:9,f_auto,q_auto,g_auto/images%2FvoltaxMediaLibrary%2Fmmsport%2Fmentalfloss%2F01g4x42n8473vmc27s9m.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
